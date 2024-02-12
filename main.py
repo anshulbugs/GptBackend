@@ -13,7 +13,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 # Default directory for .env file is the current directory
 # If you set .env in a different directory, put the directory address load_dotenv("directory_of_.env)
 load_dotenv()
-auth_token = os.getenv("AUTH_TOKEN")
+auth_token ="Bearer 1704476529550x370244089367633100"
 dataJson={}
 
 SYNTHFLOW_API_URL = "https://fine-tuner.ai/api/1.1/wf/v2_voice_agent_call"
